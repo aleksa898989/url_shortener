@@ -147,15 +147,15 @@ Create a `.env` file based on `env.template`:
 # Database Configuration
 POSTGRES_DB=urlshortener
 POSTGRES_USER=postgres
-POSTGRES_PASSWORD=your_secure_password_here
-DATABASE_URL=postgresql://postgres:your_secure_password_here@localhost:5435/urlshortener
+POSTGRES_PASSWORD=<your-database-password>
+DATABASE_URL=postgresql://postgres:<your-database-password>@localhost:5435/urlshortener
 
 # Redis Configuration
 REDIS_URL=redis://localhost:6379
 
 # Redis Commander Configuration
 REDIS_COMMANDER_USER=admin
-REDIS_COMMANDER_PASSWORD=your_redis_commander_password_here
+REDIS_COMMANDER_PASSWORD=<your-redis-commander-password>
 
 # Server Configuration
 PORT=3000

@@ -14,7 +14,6 @@ if [ ! -f .env ]; then
     if [ -f env.template ]; then
         cp env.template .env
         echo "✅ Created .env file from template. Please edit it with your database credentials."
-        echo "   Default credentials: postgres/password123"
     else
         echo "❌ env.template not found. Please create a .env file manually."
         exit 1
