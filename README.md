@@ -15,7 +15,7 @@ A modern URL shortening service built with Node.js, TypeScript, Express, Postgre
 1. **Clone the repository:**
 
    ```bash
-   git clone <your-repo-url>
+   git clone git@github.com:aleksa898989/url_shortener.git
    cd url_shortener
    ```
 
